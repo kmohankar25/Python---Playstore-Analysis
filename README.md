@@ -52,9 +52,9 @@ To prepare the data for analysis, we performed several data cleaning steps. Firs
 ➤ Challenges Faced 
 
 • The Amount of Null values in the dataset were very high and had to be dropped while cleaning which took out almost 13.75% of the dataset, the integrity of the dataset was weak which lead to dropping 1491 rows just to remove Null values.
-• The combined dataset after joining in SQL of both Playstore Apps and user reviews had only 500 apps in common, which accounts for merely 6.1 % of the total cleaned data. With a larger overlap of around 70% - 80% between the datasets, we could have derived more meaningful insights and conducted more valuable analysis.
-
- Many of the applications had their names containing only symbols and invalid characters, we found that those applications didn’t exist on the Google Playstore so we these applications had to be removed from the analysis.
+• The combined dataset after joining in SQL of both Playstore Apps and user reviews had only 500 apps in common, which accounts for merely 6.1 % of the total cleaned data.
+• With a larger overlap of around 70% - 80% between the datasets, we could have derived more meaningful insights and conducted more valuable analysis.
+• Many of the applications had their names containing only symbols and invalid characters, we found that those applications didn’t exist on the Google Playstore so we these applications had to be removed from the analysis.
 
 ➤ Conclusion
 
